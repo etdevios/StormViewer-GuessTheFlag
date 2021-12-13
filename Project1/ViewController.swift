@@ -37,7 +37,8 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
-        cell.textLabel?.text = "Picture \(indexPath.row + 1) of \(pictures.count)"
+        cell.textLabel?.text = pictures[indexPath.row]
+//        
         return cell
     }
     
@@ -49,6 +50,9 @@ class ViewController: UITableViewController {
 
             // 3: now push it onto the navigation controller
             navigationController?.pushViewController(vc, animated: true)
+            
+            vc.selectedPictureNumber = indexPath.row + 1
+            vc.totalPictures = pictures.count
         }
     }
 }
