@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CwS-Zm-1d8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CwS-Zm-1d8">
     <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,11 +22,11 @@
                                 <rect key="frame" x="0.0" y="44.5" width="768" height="90.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="73e-O8-tp4" id="rbb-AG-PQT">
-                                    <rect key="frame" x="0.0" y="0.0" width="738.5" height="90.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="739.5" height="90.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vzq-WL-Zz7">
-                                            <rect key="frame" x="20" y="0.0" width="710.5" height="90.5"/>
+                                            <rect key="frame" x="20" y="0.0" width="711.5" height="90.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                             <nil key="textColor"/>
@@ -62,10 +62,10 @@
                         <viewLayoutGuide key="safeArea" id="ggw-Kt-B7h"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="EIS-xd-bqe" firstAttribute="centerX" secondItem="4bS-Ni-TLI" secondAttribute="centerX" id="Sby-Fe-rJ6"/>
-                            <constraint firstItem="EIS-xd-bqe" firstAttribute="leading" secondItem="ggw-Kt-B7h" secondAttribute="leading" id="aqz-cH-xCu"/>
-                            <constraint firstItem="EIS-xd-bqe" firstAttribute="bottom" secondItem="ggw-Kt-B7h" secondAttribute="bottom" id="ofz-HC-U3n"/>
-                            <constraint firstItem="EIS-xd-bqe" firstAttribute="centerY" secondItem="4bS-Ni-TLI" secondAttribute="centerY" id="sBl-Zd-jMG"/>
+                            <constraint firstItem="EIS-xd-bqe" firstAttribute="leading" secondItem="ggw-Kt-B7h" secondAttribute="leading" id="32O-Bx-0W2"/>
+                            <constraint firstItem="EIS-xd-bqe" firstAttribute="bottom" secondItem="ggw-Kt-B7h" secondAttribute="bottom" id="6Q2-48-cjb"/>
+                            <constraint firstItem="EIS-xd-bqe" firstAttribute="top" secondItem="4bS-Ni-TLI" secondAttribute="top" id="Q6E-Uf-uQ3"/>
+                            <constraint firstItem="EIS-xd-bqe" firstAttribute="trailing" secondItem="ggw-Kt-B7h" secondAttribute="trailing" id="XKy-bQ-eKw"/>
                         </constraints>
                     </view>
                     <connections>
