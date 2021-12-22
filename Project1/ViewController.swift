@@ -14,6 +14,7 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Storm Viewer"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         navigationController?.navigationBar.prefersLargeTitles = true
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
@@ -55,5 +56,15 @@ class ViewController: UITableViewController {
             vc.totalPictures = pictures.count
         }
     }
+    
+    @objc func shareTapped() {
+        
+
+        let vc = UIActivityViewController(activityItems: ["https://itunes.apple.com/app/id1440611372"], applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
+    }
+    
+
 }
 
